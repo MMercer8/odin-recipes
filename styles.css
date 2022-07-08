@@ -1,0 +1,54 @@
+body{
+    background-color: tan;
+}
+
+.main-title{
+    text-align: center;
+}
+.test{
+    display: flex;
+    justify-content: center;
+}
+
+.flipcard {
+    overflow: hidden;
+    justify: center;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 10px;
+    transition: box-shadow .5s,
+    transform .25s;   
+
+}
+.flipcard:hover {
+    box-shadow:
+    5px 3px rgba(255, 255, 255, .05),
+    10px 6px rgba(255, 255, 255, .04),
+    15px 9px rgba(255, 255, 255, .03);
+    transform: 
+    rotate(2deg)
+    skew(-1deg,-5deg);
+    transition: 
+    box-shadow .75s,
+    transform .375s;
+}
+.recipe-image{
+    width: 150px;
+    height: auto;
+    justify-content: center;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.cardoutline{
+    background-color: whitesmoke;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
